@@ -1,9 +1,9 @@
 import React from "react";
 import { Alert } from "react-native";
-import Loading from "./Loading";
+import Loading from "./loading";
 import * as Location from "expo-location";
 import axios from "axios";
-import Weather from "./Weather";
+import Weather from "./Weather"; 
 
 const API_KEY = "241051bf13976dd3ddf8b8d9f247255e";
 

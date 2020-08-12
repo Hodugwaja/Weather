@@ -5,7 +5,7 @@ import{ StyleSheet, Text, View } from "react-native";
 export default function Loading(){
     return(
         <View style = {styles.container}>
-            <Text style = {styles.CallWeather}>날씨 불러오기</Text>
+            <Text style = {styles.CallWeather}>날씨를 불러오는 중입니다</Text>
         </View>
     )
 }
@@ -21,5 +21,8 @@ const styles = StyleSheet.create({
     CallWeather : {
         color : "#2c2c2c",
         fontSize : 30,
+    },
+    source :{
+        fontSize : 10
     }
 })
